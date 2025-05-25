@@ -1,0 +1,105 @@
+
+    /* General Styles for Form Container */
+    .form-container {
+        background-color: #fff;
+        width: 90%; /* Responsive width */
+        max-width: 600px; /* Max width for larger screens */
+        margin: 80px auto; /* Center the container */
+        padding: 30px;
+        border-radius: 20px; /* Softer corners */
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Depth effect */
+        text-align: center;
+        transition: box-shadow 0.3s ease;
+    }
+
+    .form-container:hover {
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2); /* Hover effect */
+    }
+
+    .form-container h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+        color: #333;
+    }
+
+    .form-container p {
+        font-size: 16px;
+        color: #666;
+        margin-bottom: 20px;
+    }
+
+    /* Form Layout */
+    .form-group {
+        margin-bottom: 20px;
+        text-align: left;
+    }
+
+    .form-group label {
+        display: block;
+        font-size: 14px;
+        color: #333;
+        margin-bottom: 5px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width: 100%;
+        padding: 10px;
+        font-size: 14px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-top: 5px;
+    }
+
+    input[type="text"]:focus,
+    input[type="email"]:focus,
+    textarea:focus {
+        border-color: blue;
+        outline: none;
+    }
+
+    /* Name Fields Styling */
+    .name-fields {
+        display: flex;
+        gap: 10px;
+    }
+
+    .name-fields input {
+        width: 50%;
+    }
+
+    /* File Upload Area */
+    .file-upload {
+        border: 2px dashed #ccc;
+        border-radius: 5px;
+        padding: 20px;
+        text-align: center;
+        color: #aaa;
+        cursor: pointer;
+        transition: border-color 0.3s;
+    }
+
+    .file-upload:hover {
+        border-color: blue;
+    }
+
+    input[type="file"] {
+        display: none;
+    }
+
+    /* Textarea */
+    textarea {
+        resize: none;
+        height: 100px;
+    }
+
+   
+
+    /* Small Text */
+    small {
+        font-size: 12px;
+        color: #aaa;
+        display: block;
+        margin-top: 5px;
+    }
